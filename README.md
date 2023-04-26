@@ -1,3 +1,7 @@
+# UWU Super Sim
+
+[!](https://user-images.githubusercontent.com/1373867/234509623-707e44c5-6657-4fca-868c-13106a1b61ff.png)
+
 1. **Install Rust and Create a Bevy Project**: Follow the steps mentioned
    in my previous response to set up the development environment.
 1. **Project Structure**: Organize your project into separate modules for different game components, such as player, enemies, items, UI, races, skills, classes, and alignment.
