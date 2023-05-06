@@ -1,19 +1,34 @@
-# UWU Super Sim
+## Usage
 
-![](https://user-images.githubusercontent.com/1373867/234509623-707e44c5-6657-4fca-868c-13106a1b61ff.png)
+Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
-1. **Install Rust and Create a Bevy Project**: Follow the steps mentioned
-   in my previous response to set up the development environment.
-1. **Project Structure**: Organize your project into separate modules for different game components, such as player, enemies, items, UI, races, skills, classes, and alignment.
-1. **Implement Basic Game Loop**: Start by implementing a basic game loop in Bevy, including rendering a simple scene, handling input, and updating game state.
-1. **Character Creation**: Implement character creation, allowing players to choose a race, class, and initial skills. Also, implement the "bouba" or "kiki" appearance choice.
-1. **Game Mechanics**: Implement core gameplay mechanics like skill gain based on in-game actions, crafting, animal taming, and stealing. Make sure to provide rapid skill gain so characters can quickly become useful in their chosen paths.
-1. **Open World**: Create a procedurally generated open world that includes various regions and biomes. Populate the world with a diverse range of creatures, enemies, and NPCs based on the list you provided.
-1. **PvP and Player Collaboration**: Implement PvP combat and mechanics to encourage player collaboration, such as forming groups or societies for mutual protection.
-1. **Networking**: Implement multiplayer functionality using a suitable networking library or solution for Rust. Bevy has some experimental networking features, but you may need to choose a more mature networking library for better support.
-1. **Art Style**: Use a surreal, Picasso-inspired art style for the game's visuals. You can start with basic shapes and colors and refine the art as the project progresses.
+This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
-# Credits
-Nora
-NIISH
-oskrM
+```bash
+$ npm install # or pnpm install or yarn install
+```
+
+### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm dev` or `npm start`
+
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br>
+
+### `npm run build`
+
+Builds the app for production to the `dist` folder.<br>
+It correctly bundles Solid in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+## Deployment
+
+You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
