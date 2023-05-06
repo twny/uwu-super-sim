@@ -1,11 +1,17 @@
 import type { Component } from 'solid-js';
+import Home from './components/Home';
+import Game from './components/Game';
 
-import styles from './styl/App.module.css';
-import ThreeCube from './components/ThreeCube';
+import { Router, Route, Routes } from "@solidjs/router";
 
 const App: Component = () => {
   return (
-    <ThreeCube/>
+    <Router>
+      <Routes>
+        <Route path="/" component={Home} />
+        <Route path="/game" component={Game} />
+      </Routes>
+    </Router>
   );
 };
 
